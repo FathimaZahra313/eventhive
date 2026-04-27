@@ -5,6 +5,7 @@ require("dotenv").config();
 // Import Express for building the HTTP server
 // Express provides routing, middleware, and request/response handling
 const express = require("express");
+const cors = require("cors");
 
 // Import database connection function
 const connectDB = require("./config/db");
